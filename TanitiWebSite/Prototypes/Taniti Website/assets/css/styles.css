@@ -1,0 +1,158 @@
+body {
+  font-family: Arial, Halvetica, sans-serif;
+  font-size: 20px;
+  background-color: #e9f2fb;
+}
+
+#promo {
+  text-align: center;
+  padding: 40px;
+  background: url(../../assets/img/HomeBanner.jpg) no-repeat;
+  background-size: cover;
+}
+
+@media (max-width: 991px) {
+  #promo {
+    padding: 20px;
+  }
+}
+
+#promo .jumbotron {
+  border-radius: 20px;
+  padding: 40px;
+  background-color: rgba(211,209,209,0.75);
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+@media (max-width: 991px) {
+  #promo .jumbotron {
+    padding: 20px;
+  }
+}
+
+.site-section {
+  text-align: center;
+  padding: 50px 0 60px;
+}
+
+.site-section h1, .site-section p {
+  font-weight: normal;
+  margin-bottom: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+#Welcome .p {
+  max-width: 800px;
+  font-size: 20px;
+  margin: 0 auto;
+}
+
+.dark-section {
+  background-color: #f4f6f7;
+}
+
+#Logo {
+  max-height: 60px;
+  margin-right: 5px;
+  max-width: 60px;
+  margin-top: -3px;
+  display: inline-block;
+}
+
+.navbar-brand {
+  font-size: 24px;
+}
+
+h1, h2, h3, p {
+  margin: 30px;
+}
+
+img {
+  padding: 10px;
+}
+
+.LargeCaro {
+  border: double;
+  margin: 0 auto;
+  max-width: 1000px;
+  max-height: 800px;
+}
+
+.LargeCaro img {
+  max-width: 1000px;
+  max-height: 600px;
+  margin: 0 auto;
+}
+
+.site-layout {
+  padding: 40px;
+}
+
+.SmallCaro img {
+  height: 450px;
+}
+
+.row {
+  margin-top: 20px;
+}
+
+.btn {
+  margin: 10px;
+}
+
+#Sight img {
+  height: 250px;
+}
+
+#Restraunts img {
+  max-height: 250px;
+  min-height: 250px;
+}
+
+#Grocery img {
+  height: 250px;
+}
+
+ol, ul, dl {
+  text-align: left;
+}
+
+#Logo-2 {
+  margin: 0 auto;
+  margin-right: 45px;
+  height: 150px;
+  width: 150px;
+  margin-top: 10px;
+}
+
+.form-group.FormSpacing {
+  padding-left: 45px;
+  height: 45px;
+  width: 350px;
+}
+
+#Comment {
+  width: 500px;
+  padding-left: 45px;
+}
+
+#Reserve {
+  margin: 0 auto;
+}
+
+.nameGroup {
+  width: 250px;
+}
+
+.form-row {
+  margin-bottom: 30px;
+}
+
+textarea {
+  margin-bottom: 20px;
+}
+
